@@ -9,11 +9,11 @@ export default async function Header() {
   return (
     <header className="header">
       <div className="container header-row">
-        <Link href="/" className="brand">VoltMart</Link>
+        <Link href="/" className="brand">Addis-Ecommerce</Link>
 
         <nav className="nav">
           <Link href="/products">Products</Link>
-          <Link href="/about">About us</Link>
+          <Link href="/aboutus">About us</Link>
           {session && <Link href="/orders">Orders</Link>}
         </nav>
 
