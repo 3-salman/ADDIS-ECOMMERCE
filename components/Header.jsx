@@ -13,7 +13,7 @@ export default async function Header() {
 
         <nav className="nav">
           <Link href="/products">Products</Link>
-          <Link href="/aboutus">About us</Link>
+          <Link href="/about">About us</Link>
           {session && <Link href="/orders">Orders</Link>}
         </nav>
 
